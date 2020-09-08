@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    background-color: #f5f4e4;
+}
+
+p {
+    line-height: 2;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.btn {
+    color: #11999E;
+}
+
+a { 
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E ;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.all-rights-res {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+hr {
+    border: dotted #cdd8d8 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+h1 {
+    font-size: 562.5%;
+    margin-top: 50px auto 0 auto;
+    font-family: 'Allura', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px    ;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #dfe9e9;
+    position: relative;
+    padding-top: 90px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container { 
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.web {
+    text-decoration: underline;
+}
+
+.webdev {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.sports {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.contact-me-btn {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	padding:8px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.contact-me-btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.contact-me-btn:active {
+	position:relative;
+	top:1px;
+}
